@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main-header {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtdVoWwbZY_-eptfOP0g7aXa3TdXzqjyA9uT7GiMTyIcm3r5e5Ww');
+  height: 500px;
+  margin-top: 0;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 72px;
+  margin-top: 0;
+  padding-top: 10%;
+  text-align: center;
+
+}
+
+h2 {
+  padding: 40px 0;
+  font-size: 40px;
+
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.bio-header {
+  font-size: 31px;
+  color: darkred;
+  letter-spacing: 1.2px;
+}
+
+.about-bill {
+  font-size: 23 px;
+  letter-spacing: 1.2px;
+  line-height: 1.31;
+}
+
+.car-grid {
+  display: inline-grid;
+  grid-template: 250px / 300px 300px 300px;
+  grid-gap: 10px;
+}
+
+.car-grid div{
+  background-image: url('https://www.berlincity.com/assets/stock/expanded/white/640/2019toc02_640/2019toc020002_640_12.jpg?height=800');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-container {
+  text-align: center;
+}
+
+.main-button {
+  background: red;
+  padding: 1% 1.8%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22;
+}
+
+.main-button:hover {
+  background-color: darkred;
+}
+
+.info-grid {
+  display: inline-grid;
+  grid-template: 500px / 500px 500px;
+}
+
+.info-grid div:nth-child(2) {
+  background-image: url('https://nishadkhanlaw.com/wp-content/uploads/2018/04/Nishad-arms-crossed-rev-no-background-1.png');
+  background-position: 50% 40%;
+  background-size: cover;
+
+}
+#navbar{
+  padding-left: 3%;
+  padding-bottom: 0.5%;
+  position: fixed;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+#navbar ul li{
+    display: inline;
+    padding: 0 30px;
+}
+
+#navbar ul li a{
+  text-decoration: none;
+  color: #333;
+}
