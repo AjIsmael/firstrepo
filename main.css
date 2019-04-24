@@ -123,6 +123,7 @@ h1, h2 {
 }
 
 .contact-form input[type='text']{
+  width: 448px;
   padding: 5px 10px 5px 2px;
   border-radius: 3px;
 }
@@ -133,4 +134,8 @@ h1, h2 {
 .contact-form textarea {
   margin-top: 15px;
   border-radius: 5px;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  font-size: 25px;
+
 }
